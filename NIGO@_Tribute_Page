@@ -1,0 +1,33 @@
+<div id="main">
+  <head>
+    <title>NIGO Tribute Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
+    </head>
+  <body>
+    <h1 id="title"> NIGO: Master of Modern Streetwear</h1>
+    <figure id="img-div">
+    <img id="image" src="https://i.pinimg.com/originals/d1/34/85/d13485481a91c9c3e5aa6baf96c72009.jpg" alt="BAPE Monkey">
+      <figcaption id="img-caption">The BAPE monkey, one of the iconic figures used by NIGO@.</figcaption>
+    </figure>
+    <section id="tribute-info">
+      <h2 id="accomplishments">Timeline of NIGO's career</h2>
+      <ul>
+        <li><strong>1970-</strong> born Tomoaki Nagao in Maebashi, Japan </li>
+        <li><strong>1993-</strong> opened a retail clothing store, NOWHERE</li>
+        <li><strong>1994-</strong> started his brand BAPE</li>
+        <li><strong>2003-</strong> released BAPESTA model shoe</li>
+        <li><strong>2010-</strong> started new company Human Made</li>
+        <li><strong>2011-</strong> sold 90% of BAPE to Honk Kong company I.T.</li>
+        <li><strong>2021-</strong> appointed as creative director of Kenzo</li>
+      </ul>
+      
+      
+    </section>
+   
+  </body>
+  <footer>
+    <a id="tribute-link" href="https://www.highsnobiety.com/p/nigo-biography/" target="_blank">Click here to find out more about NIGO@.</a>
+  </footer>
+</div>
