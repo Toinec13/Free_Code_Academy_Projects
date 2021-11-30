@@ -1,0 +1,146 @@
+<body>
+<div class="container">    
+<h1 id="title">We would love to hear from you!</h1>
+  <p id="description">We are a growing brand and want to know what type of products</br> you would like to see from us.</p>
+<div id="main-form">
+   <div class="form-group">
+    <form id="survey-form">
+  <label id="name-label" 
+         for="name" 
+         required>Name:</label><br>
+    <input type="text" 
+           id="name" 
+           name="name" 
+           placeholder="Enter your name" 
+           required/></br>
+  <label id="email-label" 
+         for= "email" 
+         required>Email:</br></label>
+    <input type="email" 
+           id="email" 
+           name="email" 
+           placeholder="your@email.com" 
+           required/></br>
+  <label id="phone-number-label">Phone Number:</br>
+    <input type="tel" 
+           pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+           id="phone-number" 
+           name="phone-number" 
+           placeholder ="(xxx)xxx-xxxx"  
+           required/></br>
+  
+<div class="form-group">
+   <div class="form-group">
+      <label id="number-label" for="number"
+             >Age:</label></br>
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="6"
+        max="99"
+        class="form-control"
+        placeholder="Age"
+      />
+    </div>
+<div class="form-group">
+  <label for="Gender">Gender:</label></br>
+      <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other
+      
+</div>
+<div class="form-reply">
+  <p>What is your favorite high fashion brand (outside of ours)?</p>
+  <select id="dropdown" 
+          name="brand" 
+          class="form-control" 
+          required>
+      <option disabled selected value>Select your favorite brand</option>
+      <option value="Dior">Dior</option>
+      <option value="Louis Vuitton">Louis Vuitton</option>
+      <option value="Chanel">Chanel</option>
+      <option value="Celine">Celine</option>
+    <option value="Gucci">Gucci</option>
+    <option value="Other">Other</option>
+  </select>
+</div>
+<div class="form-reply">
+  <p>
+        What items will you purchase in the future?
+        <span class="clue">(Check all that apply)</span>
+      </p>
+
+      <label
+        ><input
+          name="items"
+          value="T-Shirt"
+          type="checkbox"
+          class="input-checkbox"
+        />T-Shirt</label
+        >
+      <label>
+        <input
+          name="items"
+          value="Sneakers"
+          type="checkbox"
+          class="input-checkbox"
+        />Sneakers</label
+      >
+      <label
+        ><input
+          name="items"
+          value="Sweater"
+          type="checkbox"
+          class="input-checkbox"
+        />Sweater</label
+      >
+      <label
+        ><input
+          name="items"
+          value="Hoodie"
+          type="checkbox"
+          class="input-checkbox"
+        />Hoodie</label
+      >
+      <label
+        ><input
+          name="items"
+          value="Backpack"
+          type="checkbox"
+          class="input-checkbox"
+        />Backpack</label
+      >
+      <label
+        ><input
+          name="items"
+          value="Messenger_Bag"
+          type="checkbox"
+          class="input-checkbox"
+        />Messenger Bag</label
+      >
+</div>
+<div class="form-group">
+      <p>Any comments or suggestions?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+    </div>
+<div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    
+    
+    
+</div>
+
+    
+   
+   
+    </form>
+</div>
+</body>
